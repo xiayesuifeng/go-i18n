@@ -27,6 +27,10 @@ func SetLanguage(lang string) {
 	language = lang
 }
 
+func GetLanguage() string {
+	return language
+}
+
 func Tr(key string) string {
 	value, ok := translations[language][key]
 	if ok {
