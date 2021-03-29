@@ -5,6 +5,11 @@
 [![GoDoc](https://godoc.org/gitlab.com/xiayesuifeng/go-i18n?status.svg)](https://godoc.org/gitlab.com/firerainos/xiayesuifeng/go-i18n)
 [![Sourcegraph](https://sourcegraph.com/gitlab.com/xiayesuifeng/go-i18n/-/badge.svg)](https://sourcegraph.com/gitlab.com/xiayesuifeng/go-i18n)
 
+## Examples/Applications
+[firerain-installer](https://gitlab.com/firerainos/firerain-installer)
+
+[firerain-firstboot](https://gitlab.com/firerainos/firerain-firstboot)
+
 ## Example Code
 `zh_CN.go`
 ```go
