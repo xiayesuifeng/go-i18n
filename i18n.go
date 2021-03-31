@@ -18,7 +18,7 @@ func AddTranslation(translation Translation, language string) {
 
 func LoadTranslator() {
 	lang := os.Getenv("LANG")
-	if lang != "" {
+	if lang != "" && lang != "C" {
 		language = lang[:strings.Index(lang, ".")]
 	}
 }
